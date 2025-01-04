@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memorias Compartidas</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Memorias Compartidas</h1>
+    </header>
+    <main>
+        <section class="memory-section">
+            <h2>subir una Foto</h2>
+            <input type="file" id="photoUpload" accept="image/*">
+            <button id="uploadButton">Subir</button>
+            <div id="gallery"></div>
+        </section>
+        <section class="letter-section">
+            <h2>Escribir una carta</h2>
+            <textarea id="letterInput" placeholder="Escribe algo especial..."></textarea>
+            <button id="sendLetterButton">Enviar Carta</button>
+            <div id="letters">
+                <h3>Cartas Recibidas</h3>
+                <!--Aqui apareceran las cartas-->
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
